@@ -1,0 +1,10 @@
+.proof-journal/
+.venv/
+__pycache__/
+.pytest_cache/
+.gltest_cache/
+artifacts/
+.env
+.env.*
+*.key
+*.pem
