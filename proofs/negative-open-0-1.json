@@ -1,0 +1,128 @@
+{
+  "label": "negative-open-0-1",
+  "method": "open_node",
+  "args": [
+    0,
+    "afa6683ba7ee4ead2580f430e2f9e57e1feb7b91c6dffc9188bce8d2fdc067d2",
+    "942edd33004d1aaec7c09bac2e695cf632cff67f77acf13ed72fff7f94c53528"
+  ],
+  "caller": 1,
+  "contract": "0x2CDa056008d0bF544D3cc48Aca23393B2eC0D9BD",
+  "transaction": "0xebe6716eaae00453657953985a1ff3cb43871cae06ceb38ea8d73316a4d751a8",
+  "sender": "0x6ab564a873c543dc416d7babbcbd4e396a62d9e9",
+  "success": true,
+  "reason": null,
+  "state_before": {
+    "deadline": 1792310189,
+    "domain": "38f90f0a9f8b45c33cbb2f82285ef929d31b6d6cb7116a952bc807393424846d",
+    "hi": 2,
+    "history": [],
+    "labels": [
+      "",
+      ""
+    ],
+    "lefts": [
+      "afa6683ba7ee4ead2580f430e2f9e57e1feb7b91c6dffc9188bce8d2fdc067d2",
+      ""
+    ],
+    "lo": 0,
+    "manifest": [
+      {
+        "question": "Did the final bulletin confirm HarborDB version 4.2 became generally available by 2026-09-30, excluding previews and planned releases?",
+        "sha256": "67ef0b1863e261f5a96e4f91a66b45a45b1d4c9bbee383a6a9d91254d411838d",
+        "url": "https://raw.githubusercontent.com/gabrieladash123-bit/delta-bisect/63dc8e6b82c43a8eeb95b6503494ff174f67aac3/reports/corrected-release.md"
+      },
+      {
+        "question": "Did the final bulletin confirm HarborDB version 4.2 became generally available by 2026-09-30, excluding previews and planned releases?",
+        "sha256": "5ed591dd0c3b2e29e48f85091b853f005d055a4ac966b3a240824bd80679a1f9",
+        "url": "https://raw.githubusercontent.com/gabrieladash123-bit/delta-bisect/63dc8e6b82c43a8eeb95b6503494ff174f67aac3/reports/preview-only.md"
+      }
+    ],
+    "nodes": [
+      "6a635cdc99b2598cc5e3031197ebf20b8c5dadd90cd7ae4093bb891d3e2aaf71",
+      "dc8a300e8527679f705e53403cc69f6b138a8dd13e4b819f52de4b5ed3cceca7"
+    ],
+    "participants": [
+      "0xd3db423c14273a995f67173918ad9d53697793a9",
+      "0x6ab564a873c543dc416d7babbcbd4e396a62d9e9"
+    ],
+    "result": null,
+    "rights": [
+      "75fba986e618dd0ddfeca717585d37aad9fc281c4d04d082a724815b853e338d",
+      ""
+    ],
+    "roots": [
+      "6a635cdc99b2598cc5e3031197ebf20b8c5dadd90cd7ae4093bb891d3e2aaf71",
+      "dc8a300e8527679f705e53403cc69f6b138a8dd13e4b819f52de4b5ed3cceca7"
+    ],
+    "round": 0,
+    "stage": "OPEN",
+    "window": 7200
+  },
+  "state": {
+    "deadline": 1792310265,
+    "domain": "38f90f0a9f8b45c33cbb2f82285ef929d31b6d6cb7116a952bc807393424846d",
+    "hi": 2,
+    "history": [
+      {
+        "direction": "RIGHT",
+        "hi": 2,
+        "lefts": [
+          "afa6683ba7ee4ead2580f430e2f9e57e1feb7b91c6dffc9188bce8d2fdc067d2",
+          "afa6683ba7ee4ead2580f430e2f9e57e1feb7b91c6dffc9188bce8d2fdc067d2"
+        ],
+        "lo": 0,
+        "nodes": [
+          "6a635cdc99b2598cc5e3031197ebf20b8c5dadd90cd7ae4093bb891d3e2aaf71",
+          "dc8a300e8527679f705e53403cc69f6b138a8dd13e4b819f52de4b5ed3cceca7"
+        ],
+        "rights": [
+          "75fba986e618dd0ddfeca717585d37aad9fc281c4d04d082a724815b853e338d",
+          "942edd33004d1aaec7c09bac2e695cf632cff67f77acf13ed72fff7f94c53528"
+        ],
+        "round": 0
+      }
+    ],
+    "labels": [
+      "",
+      ""
+    ],
+    "lefts": [
+      "",
+      ""
+    ],
+    "lo": 1,
+    "manifest": [
+      {
+        "question": "Did the final bulletin confirm HarborDB version 4.2 became generally available by 2026-09-30, excluding previews and planned releases?",
+        "sha256": "67ef0b1863e261f5a96e4f91a66b45a45b1d4c9bbee383a6a9d91254d411838d",
+        "url": "https://raw.githubusercontent.com/gabrieladash123-bit/delta-bisect/63dc8e6b82c43a8eeb95b6503494ff174f67aac3/reports/corrected-release.md"
+      },
+      {
+        "question": "Did the final bulletin confirm HarborDB version 4.2 became generally available by 2026-09-30, excluding previews and planned releases?",
+        "sha256": "5ed591dd0c3b2e29e48f85091b853f005d055a4ac966b3a240824bd80679a1f9",
+        "url": "https://raw.githubusercontent.com/gabrieladash123-bit/delta-bisect/63dc8e6b82c43a8eeb95b6503494ff174f67aac3/reports/preview-only.md"
+      }
+    ],
+    "nodes": [
+      "75fba986e618dd0ddfeca717585d37aad9fc281c4d04d082a724815b853e338d",
+      "942edd33004d1aaec7c09bac2e695cf632cff67f77acf13ed72fff7f94c53528"
+    ],
+    "participants": [
+      "0xd3db423c14273a995f67173918ad9d53697793a9",
+      "0x6ab564a873c543dc416d7babbcbd4e396a62d9e9"
+    ],
+    "result": null,
+    "rights": [
+      "",
+      ""
+    ],
+    "roots": [
+      "6a635cdc99b2598cc5e3031197ebf20b8c5dadd90cd7ae4093bb891d3e2aaf71",
+      "dc8a300e8527679f705e53403cc69f6b138a8dd13e4b819f52de4b5ed3cceca7"
+    ],
+    "round": 1,
+    "stage": "REVEAL",
+    "window": 7200
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "hash": "0xdaa51041fd017e6a47d64562894c3c1cc81d5c9338033e56711ba607a6999c36",
+  "from_address": "0xd3DB423c14273a995f67173918ad9D53697793A9",
+  "to_address": "0x59Af97E9269bE399320906612aE7470927606dBd",
+  "data": {
+    "calldata": {
+      "readable": "{\"args\":[\"c19282dffbe74421fee7f60be7ce5e4108b7d94873a013c012fd214fb80876d7\",]\"method\":\"commit_root\"}"
+    }
+  },
+  "status": 7,
+  "result": 6,
+  "consensus_data": {
+    "votes": {
+      "0x1dEcE6A694520b1d3a2e24b9f28500858C756BDb": "agree",
+      "0x2FcBC452425f2F1e102c5c04b4331fcB46ee1c00": "agree",
+      "0xa21bc502E3578E4b3039be8c59a257198f7c3f19": "agree",
+      "0xad7d13f269CeAd4379E64a1A3a0803a827e70B43": "idle",
+      "0xf1C7551292319EE334e2D8A24eAC108Bd4C63b21": "idle"
+    },
+    "leader_receipt": [
+      {
+        "execution_result": "ERROR",
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "leader",
+        "vote": null,
+        "calldata": {
+          "readable": "{\"args\":[\"c19282dffbe74421fee7f60be7ce5e4108b7d94873a013c012fd214fb80876d7\",]\"method\":\"commit_root\"}"
+        },
+        "eq_outputs": {},
+        "result": {
+          "status": "rollback",
+          "payload": "[EXPECTED] Root already committed"
+        }
+      },
+      {
+        "execution_result": "ERROR",
+        "genvm_result": {
+          "stderr": "Validator execution cancelled after quorum",
+          "stdout": "",
+          "raw_error": {
+            "fatal": false,
+            "causes": [
+              "VALIDATOR_QUORUM_REACHED"
+            ]
+          },
+          "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+        },
+        "mode": "validator",
+        "vote": "idle",
+        "result": {
+          "status": "contract_error",
+          "payload": "idle"
+        }
+      }
+    ],
+    "validators": [
+      {
+        "execution_result": "ERROR",
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "validator",
+        "vote": "agree"
+      },
+      {
+        "execution_result": "ERROR",
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "validator",
+        "vote": "agree"
+      },
+      {
+        "execution_result": "ERROR",
+        "genvm_result": {
+          "stderr": "Validator execution cancelled after quorum",
+          "stdout": "",
+          "raw_error": {
+            "fatal": false,
+            "causes": [
+              "VALIDATOR_QUORUM_REACHED"
+            ]
+          },
+          "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+        },
+        "mode": "validator",
+        "vote": "idle"
+      },
+      {
+        "execution_result": "ERROR",
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "validator",
+        "vote": "agree"
+      }
+    ]
+  },
+  "gaslimit": 2,
+  "nonce": 2,
+  "created_at": "2026-10-18T05:47:22.540802+00:00",
+  "leader_only": false,
+  "execution_mode": "NORMAL",
+  "origin_address": "0xd3DB423c14273a995f67173918ad9D53697793A9",
+  "triggered_on": null,
+  "appeal_validators_timeout": false,
+  "sim_config": {
+    "signed_rollup_transaction": "0xf901a902808307a12094b7278a61aa25c888815afc32ad3cc52ff24fe57580b9014427241a99000000000000000000000000d3db423c14273a995f67173918ad9d53697793a900000000000000000000000059af97e9269be399320906612ae7470927606dbd0000000000000000000000000000000000000000000000000000000000000005000000000000000000000000000000000000000000000000000000000000000300000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000061f85fb85c1604617267730d840463313932383264666662653734343231666565376636306265376365356534313038623764393438373361303133633031326664323134666238303837366437066d6574686f645c636f6d6d69745f726f6f7400000000000000000000000000000000000000000000000000000000000000008301e482a09c63605d396aed07cf97c7f944ba2073cc876d97adca541338959ab4d8437a52a071ef87b4764e8903170a1a56fd7cd3ad8dfce675063ea1a108f20a5fa6d13f3a"
+  },
+  "value_credited": false,
+  "sender": "0xd3DB423c14273a995f67173918ad9D53697793A9",
+  "recipient": "0x59Af97E9269bE399320906612aE7470927606dBd",
+  "tx_id": "0xdaa51041fd017e6a47d64562894c3c1cc81d5c9338033e56711ba607a6999c36",
+  "activator": "0xf1C7551292319EE334e2D8A24eAC108Bd4C63b21",
+  "last_leader": "0xf1C7551292319EE334e2D8A24eAC108Bd4C63b21",
+  "result_name": "MAJORITY_AGREE",
+  "num_of_rounds": "1",
+  "last_round": {
+    "round": "0",
+    "leader_index": "0",
+    "votes_committed": "5",
+    "votes_revealed": "5",
+    "appeal_bond": "0",
+    "rotations_left": "3",
+    "result": 6,
+    "round_validators": [
+      "0xf1C7551292319EE334e2D8A24eAC108Bd4C63b21",
+      "0x2FcBC452425f2F1e102c5c04b4331fcB46ee1c00",
+      "0x1dEcE6A694520b1d3a2e24b9f28500858C756BDb",
+      "0xad7d13f269CeAd4379E64a1A3a0803a827e70B43",
+      "0xa21bc502E3578E4b3039be8c59a257198f7c3f19"
+    ],
+    "validator_votes_hash": [
+      "0x2e47e48a7044cc2a9af2922be72a9bcb79755a9ba21c41338b1f9a1375c6b44c",
+      "0x88ca5b3660fef31b0501264fcfc638c2e42a6423668ac18e8cd8925bc1184909",
+      "0x3b9a7e871d9348d817b62b40eda112bfc8fa0b3bd68ae5c422d91d85b2cfef2f",
+      "0x525031ec780b978b570a9e125ffcf111caa7db54d5426abf96d932acd53a3544",
+      "0x21776870deeeb49decf11c242a6e2b74405277359d67e1a87d497dc274e7549c"
+    ],
+    "validator_votes": [
+      5,
+      1,
+      1,
+      5,
+      1
+    ],
+    "validator_votes_name": [
+      "IDLE",
+      "AGREE",
+      "AGREE",
+      "IDLE",
+      "AGREE"
+    ]
+  },
+  "type": 2,
+  "status_name": "FINALIZED"
+}

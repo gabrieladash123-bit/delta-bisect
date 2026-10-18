@@ -12,7 +12,8 @@ This primitive fits disputes between batch classifiers, source-index maintainers
 - [Architecture and hash specification](docs/architecture.md): commitment domain, canonical bisection, independent source judgment, deadlines and limits.
 - [Commitment helper](scripts/merkle.cjs): Node.js domain, leaves, tree construction and child openings.
 - [Direct tests](tests/direct/test_delta.py): authenticated moves, first-difference selection, deadlines, source/model failures and explicit validator replay.
-- [Onchain proofs](proofs/README.md): deployment evidence is added only after finalized receipts and fresh-state verification.
+- [Onchain proofs](proofs/README.md): four public StudioNet instances; 32 finalized MAJORITY_AGREE receipts, actual calldata and fresh-state verification.
+- [Submission text](docs/submission.md): category, ready-to-copy description, source and deployment links.
 
 ## Build and verify
 

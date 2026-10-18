@@ -1,0 +1,171 @@
+{
+  "label": "uncertain-resolve",
+  "method": "resolve",
+  "args": [],
+  "caller": 1,
+  "contract": "0x92092E8dfD1A40BA682fe83B86bf216CC33A615D",
+  "transaction": "0x911c7ea4370177e63af7cdac669f0cc4fdcb278e04e9ad3a96875149809a8f48",
+  "sender": "0x6ab564a873c543dc416d7babbcbd4e396a62d9e9",
+  "success": true,
+  "reason": null,
+  "state_before": {
+    "deadline": 0,
+    "domain": "38dd0b8588a6c3e5bc893f0a01d3830da0a4071942328153d50ca884a110fe54",
+    "hi": 1,
+    "history": [
+      {
+        "direction": "LEFT",
+        "hi": 2,
+        "lefts": [
+          "4fed2175984798e092f8bad3df553e1286940c0c252ff1c8c37ea3d7de4b3466",
+          "fba079cc65be654dda3262017efca9e1d6edb2b9cba54c399093d564c45bf00b"
+        ],
+        "lo": 0,
+        "nodes": [
+          "904d993c7beb1b888ca320ad3574eeff60104a9881cbf1aa6fc4db75d86d0320",
+          "e02bdde86511d0e7d66129ba6d11a122b43196e97502f4308661ca51e6cab87e"
+        ],
+        "rights": [
+          "44d7c96eecd07b7fb78a4210444a2637b3fe3ac22e8e5660857deec94adb2abc",
+          "44d7c96eecd07b7fb78a4210444a2637b3fe3ac22e8e5660857deec94adb2abc"
+        ],
+        "round": 0
+      }
+    ],
+    "labels": [
+      "YES",
+      "UNCERTAIN"
+    ],
+    "lefts": [
+      "",
+      ""
+    ],
+    "lo": 0,
+    "manifest": [
+      {
+        "question": "Did the final bulletin confirm HarborDB version 4.2 became generally available by 2026-09-30, excluding previews and planned releases?",
+        "sha256": "f4893d55d61e9b1dc0bcc73a6d6a3958046978b81714329675c081a7d8441718",
+        "url": "https://raw.githubusercontent.com/gabrieladash123-bit/delta-bisect/63dc8e6b82c43a8eeb95b6503494ff174f67aac3/reports/unresolved-status.md"
+      },
+      {
+        "question": "Did the final bulletin confirm HarborDB version 4.2 became generally available by 2026-09-30, excluding previews and planned releases?",
+        "sha256": "67ef0b1863e261f5a96e4f91a66b45a45b1d4c9bbee383a6a9d91254d411838d",
+        "url": "https://raw.githubusercontent.com/gabrieladash123-bit/delta-bisect/63dc8e6b82c43a8eeb95b6503494ff174f67aac3/reports/corrected-release.md"
+      }
+    ],
+    "nodes": [
+      "4fed2175984798e092f8bad3df553e1286940c0c252ff1c8c37ea3d7de4b3466",
+      "fba079cc65be654dda3262017efca9e1d6edb2b9cba54c399093d564c45bf00b"
+    ],
+    "participants": [
+      "0xd3db423c14273a995f67173918ad9d53697793a9",
+      "0x6ab564a873c543dc416d7babbcbd4e396a62d9e9"
+    ],
+    "result": null,
+    "rights": [
+      "",
+      ""
+    ],
+    "roots": [
+      "904d993c7beb1b888ca320ad3574eeff60104a9881cbf1aa6fc4db75d86d0320",
+      "e02bdde86511d0e7d66129ba6d11a122b43196e97502f4308661ca51e6cab87e"
+    ],
+    "round": 1,
+    "stage": "READY",
+    "window": 7200
+  },
+  "state": {
+    "deadline": 0,
+    "domain": "38dd0b8588a6c3e5bc893f0a01d3830da0a4071942328153d50ca884a110fe54",
+    "hi": 1,
+    "history": [
+      {
+        "direction": "LEFT",
+        "hi": 2,
+        "lefts": [
+          "4fed2175984798e092f8bad3df553e1286940c0c252ff1c8c37ea3d7de4b3466",
+          "fba079cc65be654dda3262017efca9e1d6edb2b9cba54c399093d564c45bf00b"
+        ],
+        "lo": 0,
+        "nodes": [
+          "904d993c7beb1b888ca320ad3574eeff60104a9881cbf1aa6fc4db75d86d0320",
+          "e02bdde86511d0e7d66129ba6d11a122b43196e97502f4308661ca51e6cab87e"
+        ],
+        "rights": [
+          "44d7c96eecd07b7fb78a4210444a2637b3fe3ac22e8e5660857deec94adb2abc",
+          "44d7c96eecd07b7fb78a4210444a2637b3fe3ac22e8e5660857deec94adb2abc"
+        ],
+        "round": 0
+      }
+    ],
+    "labels": [
+      "YES",
+      "UNCERTAIN"
+    ],
+    "lefts": [
+      "",
+      ""
+    ],
+    "lo": 0,
+    "manifest": [
+      {
+        "question": "Did the final bulletin confirm HarborDB version 4.2 became generally available by 2026-09-30, excluding previews and planned releases?",
+        "sha256": "f4893d55d61e9b1dc0bcc73a6d6a3958046978b81714329675c081a7d8441718",
+        "url": "https://raw.githubusercontent.com/gabrieladash123-bit/delta-bisect/63dc8e6b82c43a8eeb95b6503494ff174f67aac3/reports/unresolved-status.md"
+      },
+      {
+        "question": "Did the final bulletin confirm HarborDB version 4.2 became generally available by 2026-09-30, excluding previews and planned releases?",
+        "sha256": "67ef0b1863e261f5a96e4f91a66b45a45b1d4c9bbee383a6a9d91254d411838d",
+        "url": "https://raw.githubusercontent.com/gabrieladash123-bit/delta-bisect/63dc8e6b82c43a8eeb95b6503494ff174f67aac3/reports/corrected-release.md"
+      }
+    ],
+    "nodes": [
+      "4fed2175984798e092f8bad3df553e1286940c0c252ff1c8c37ea3d7de4b3466",
+      "fba079cc65be654dda3262017efca9e1d6edb2b9cba54c399093d564c45bf00b"
+    ],
+    "participants": [
+      "0xd3db423c14273a995f67173918ad9d53697793a9",
+      "0x6ab564a873c543dc416d7babbcbd4e396a62d9e9"
+    ],
+    "result": {
+      "claims": [
+        "YES",
+        "UNCERTAIN"
+      ],
+      "decision": {
+        "outcome": "UNCERTAIN",
+        "paragraph": 3,
+        "quote": "Neither final statement is withdrawn, corrected or given precedence. The bulletin leaves their contradiction unresolved."
+      },
+      "index": 0,
+      "kind": "ADJUDICATED",
+      "question": "Did the final bulletin confirm HarborDB version 4.2 became generally available by 2026-09-30, excluding previews and planned releases?",
+      "report": {
+        "paragraphs": [
+          "# Synthetic HarborDB 4.2 conflicting bulletin",
+          "Final statement A, 2026-09-30: HarborDB version 4.2 became generally available on 2026-09-30 as a completed production release.",
+          "Final statement B, 2026-09-30: HarborDB version 4.2 did not become generally available by 2026-09-30 and remains a preview.",
+          "Neither final statement is withdrawn, corrected or given precedence. The bulletin leaves their contradiction unresolved. This document is a synthetic protocol fixture, not a real release announcement."
+        ],
+        "sha256": "f4893d55d61e9b1dc0bcc73a6d6a3958046978b81714329675c081a7d8441718",
+        "text": "# Synthetic HarborDB 4.2 conflicting bulletin\n\nFinal statement A, 2026-09-30: HarborDB version 4.2 became generally available on 2026-09-30 as a completed production release.\n\nFinal statement B, 2026-09-30: HarborDB version 4.2 did not become generally available by 2026-09-30 and remains a preview.\n\nNeither final statement is withdrawn, corrected or given precedence. The bulletin leaves their contradiction unresolved. This document is a synthetic protocol fixture, not a real release announcement.\n",
+        "url": "https://raw.githubusercontent.com/gabrieladash123-bit/delta-bisect/63dc8e6b82c43a8eeb95b6503494ff174f67aac3/reports/unresolved-status.md"
+      },
+      "root_disproof": [
+        true,
+        false
+      ]
+    },
+    "rights": [
+      "",
+      ""
+    ],
+    "roots": [
+      "904d993c7beb1b888ca320ad3574eeff60104a9881cbf1aa6fc4db75d86d0320",
+      "e02bdde86511d0e7d66129ba6d11a122b43196e97502f4308661ca51e6cab87e"
+    ],
+    "round": 1,
+    "stage": "ADJUDICATED",
+    "window": 7200
+  }
+}
